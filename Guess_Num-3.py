@@ -1,10 +1,4 @@
 # Guess the number computer version  
-
-# from typing import Counter
-# import typing
-# print(typing)
-
-
 import random
 
 def guess(n):
@@ -36,27 +30,6 @@ def comp_guess(x):
     print(comp_guess)
     print("Yay!! The Computer gussed the right number :D ")          
 
-# guess(10)        
-  
-# comp_guess(20)
-
-'''def computer(h):
-    high=h
-    low=1
-    feedback=''
-    # computer=0
-    while feedback!='c' or high!=low:
-        cg=random.randint(low,high)
-        feedback=input(f"Please tell the computer whether the guessed number {cg} is High(h), Low(l) or Correct(c): ")
-        if feedback == 'h':
-            high=cg-1
-        elif feedback== 'l':
-            low=cg+1
-
-    print(f"Yay!! The computer guessed your number {cg} correctly")
-'''
-
-
 def computer(h):
     high=h
     low=1
@@ -75,4 +48,6 @@ def computer(h):
 
     print(f"Yay!! The computer guessed your number {cg} correctly")
 
-guess(20)
+guess(10) #Mode 1  
+comp_guess(10) #Mode 2
+computer(10) #Mode 3
